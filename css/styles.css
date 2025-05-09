@@ -365,7 +365,6 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .sec-footer .container {
     display: flex;
     align-items: baseline;
-    gap: 120px;
 }
 .sec-footer .con-logo {
     margin-right: 120px;
@@ -463,11 +462,12 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 100%;
     position: fixed;
     top: 0;
+    left: 0;
     transition: opacity 250mscubic-bezier(0.4, 0, 0.2, 1), visibility 250mscubic-bezier(0.4, 0, 0.2, 1);
     background-color: rgba(46, 47, 66, 0.4);
-    opacity: 0;
+    /* opacity: 0;
     visibility: hidden;
-    pointer-events: none;
+    pointer-events: none; */
 }
 .modal-backdrop {
     width: 408px;
@@ -547,6 +547,9 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translateY(-50%);
     color: #2e2f42;
     transition: fill 250mscubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-form:hover {
+    fill: #4D5AE5;
 }
 .modal-text {
     margin-bottom: 16px;
